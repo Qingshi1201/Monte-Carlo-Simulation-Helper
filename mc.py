@@ -196,7 +196,7 @@ if __name__ == "__main__":
     n_parrallel = 10
     for i in range(n_parrallel):
         sim = MCSimulation(
-            model=f"/Volumes/HardDevice/Fall25/CHEME6130/assignment6/mini/8_0.064_{i+1}.txt",
+            model=f"/path/to/model/files/exist/",
             epsilon=1, sigma=1, cutoff=2.5, n_step=n_step, 
             temperature=2, kB=1, delta=delta, save_interval=50,
             log_filename=f"d{delta}_s{n_step}_{i+1}.txt"
