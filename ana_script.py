@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # -------------------------- load file and extract data ---------------
 # attention: frame_id 0 - 440 (441 frames in total)
-path = "/Volumes/HardDevice/Fall25/CHEME6130/assignment6/mini"
+path = "/path/to/log/files/"
 n_parallel = 10
 n_last_frames = 290
 n_bins = 500
