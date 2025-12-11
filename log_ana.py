@@ -188,7 +188,7 @@ class Log:
 
 # -------------------------- test features of class Log ---------------------
 if __name__ == "__main__":
-    path = "/Volumes/HardDevice/Fall25/CHEME6130/assignment6/simulation"
+    path = "/path/to/log/files"
     filename = "d0.05_s220000_1.txt"
     log = Log(
         path=path,
