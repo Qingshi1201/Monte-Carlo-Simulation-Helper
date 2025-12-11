@@ -46,7 +46,7 @@ class Model:
 
 if __name__ == "__main__":
     coordi = Model(n_particle=8, density=0.064, 
-                   work_dir="/Volumes/HardDevice/Fall25/CHEME6130/assignment6/mini",
+                   work_dir="/path/where/you/want/to/save/model/file",
                    copies=10)
     coordi.generate_model()
 
