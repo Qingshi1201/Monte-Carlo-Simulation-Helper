@@ -188,7 +188,7 @@ class Log:
 
 # -------------------------- test features of class Log ---------------------
 if __name__ == "__main__":
-    path = "/path/to/log/files"
+    path = "/path/where/model/file/exists/"
     filename = "d0.05_s220000_1.txt"
     log = Log(
         path=path,
